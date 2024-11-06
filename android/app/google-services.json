@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764099588297",
+    "project_id": "foodapp-7f8eb",
+    "storage_bucket": "foodapp-7f8eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764099588297:android:f12b8423e7ab28c8d45d18",
+        "android_client_info": {
+          "package_name": "com.practicenav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4rgG0Vkdt5hta072nQbd1Dx-b7_9sSLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

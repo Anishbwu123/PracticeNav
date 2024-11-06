@@ -1,0 +1,33 @@
+{/* <Animated.View
+          entering={FadeInUp.duration(1000).damping(20)}
+          style={styles.maintxt}>
+          <Text
+            style={{
+              fontSize: 30,
+              color: '#F65532',
+              fontWeight: 'bold',
+              fontStyle: 'italic',
+            }}>
+            Foodie
+          </Text>
+        </Animated.View> */}
+        <View style={{marginTop: 20}}>
+          <Animated.Text
+            entering={FadeInUp.damping(30).duration(1000).delay(500)}
+            style={styles.heading}>
+            Login to your App
+          </Animated.Text>
+          <TextInput
+            style={styles.input}
+            placeholder="Enter Your Registered Mobile No."
+            placeholderTextColor="black"
+            autoCapitalize="none"
+            keyboardType="numeric"
+            onChangeText={handleChange('phoneNumber')}
+            onBlur={handleBlur('phoneNumber')}
+            value={values.phoneNumber}
+          />
+          <TouchableOpacity style={styles.loginBtn} onPress={()=>{ console.log('Login button pressed'); navigation.navigate('HomeScreen')}}>
+            <Text style={styles.loginText}>LOGIN</Text>
+          </TouchableOpacity>
+        </View>
